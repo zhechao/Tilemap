@@ -61,7 +61,7 @@ export default class Player {
     * @param {Context2D} context - the rendering context
     */
   render(deltaT, context) {
-    context.drawImage(this.charaImg,this.sourceX,this.sourceY,this.width,this.height,this.x -16, this.y-16, this.width, this.height);
+    context.drawImage(this.charaImg,this.sourceX,this.sourceY,this.width,this.height,this.x - 16, this.y -32, this.width, this.height);
   }
 
 }
